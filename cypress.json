@@ -1,0 +1,11 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "https://www.mercari.com/",
+    "projectId": "69bmks",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
