@@ -1,10 +1,12 @@
+/// <reference types="cypress" />
+
 describe('Test Mercari Site using Cypress', ()=>{
 
     beforeEach(() => {
         cy.visit('/')
     })
 
-    it('Verify the page', ()=>{
+    it('Verify the page', {tags:['smoke','regression']}, ()=>{
         cy.get('.Button-y431fn-0 > .Image-sc-172fqpb-1')
         cy.title().should("eq", "Mercari: Your Marketplace")
     })

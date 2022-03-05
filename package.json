@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "cypress-grep": "^2.13.1",
+    "cypress-select-tests": "^1.7.1"
+  }
+}
