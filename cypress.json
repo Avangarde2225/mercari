@@ -1,7 +1,7 @@
 {
-    "testFiles": "**/*.feature",
-    "baseUrl": "https://www.mercari.com/",
-    "projectId": "69bmks",
+    "testFiles": "**/*.js",
+    "baseUrl": "https://www.mercari.com",
+    "projectId": "",
     "reporter": "mochawesome",
     "reporterOptions": {
       "overwrite": false,
