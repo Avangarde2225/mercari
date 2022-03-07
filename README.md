@@ -47,7 +47,7 @@ An automation testing framework for web application using Cypress
 ### Installation
 1. Clone the repo
 ```
-git clone https://github.com/manuchehri1/CignaDemoFramework.git
+git clone https://github.com/Avangarde2225/mercari.git
 ```
 2. Install NPM packages
 ```
@@ -57,7 +57,7 @@ $ npm install
 ```
 $ npm test
 
-### After runnign successufuly 
+### After running successfully 
 
 GET the mochawesome report from
 
