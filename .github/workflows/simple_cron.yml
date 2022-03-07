@@ -1,0 +1,16 @@
+name: E2E Integration
+on:
+  schedule:
+    # runs tests every day at 4am
+    - cron: '0 10 * * *'
+jobs:
+  nightly:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Cypress morning run
+        uses: ./
+        with:
+          working-directory: integration/E2E

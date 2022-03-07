@@ -1,6 +1,20 @@
 {
+  "name": "@cypress/github-action",
+  "version": "0.0.0-development",
+  "description": "GitHub Action for running Cypress end-to-end tests",
+  "private": false,
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src",
+    "action.yml"
+  ],
   "devDependencies": {
     "cypress-grep": "^2.13.1",
     "cypress-select-tests": "^1.7.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   }
 }
