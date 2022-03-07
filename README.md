@@ -7,12 +7,15 @@ An automation testing framework for web application using Cypress
 .
 ├── cypress
 │   ├── fixtures
-│   │   ├── login.json
-│   │   └── ...
+│   │   ├── example.json
+│   |   └── test_data.json
+|   │    
 │   ├── integration
-│   │   ├── homepageTest.spec.js
-│   │   ├── loginTest.spec.js
-│   │   └── ...
+│   │   ├── order.js
+│   │   ├── simple_search.js
+│   |   └── ...
+|   |
+|   │   
 │   ├── page-objects
 │   │   ├── locators──────── ...
 │   │   ├── pages─────────── ...
@@ -20,11 +23,11 @@ An automation testing framework for web application using Cypress
 │   │   
 │   ├── plugins
 │   │   ├── index.js
-│   │   └── ...
+│   │   
 │   └── support
-│   │   ├── utils
-│   │   │   ├── Utils.js
-│   │   │   └── ...
+│   │   ├── 
+│   │   │   
+│   │   │   
 │   │   ├── commands.js
 │   │   ├── index.js
 │   │   └── ...
