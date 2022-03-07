@@ -2,7 +2,7 @@ name: E2E Integration
 on:
   schedule:
     # runs tests every day at 4am
-    - cron: '0 10 * * *'
+    - cron: '0 8 * * *'
 jobs:
   nightly:
     runs-on: ubuntu-20.04

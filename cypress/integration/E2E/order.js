@@ -3,6 +3,7 @@
 describe("Mercari User Test", () => {
     before(() => {
       cy.visit("/");
+      cy.injectAxe()
     });
   
     it("successfully loads the home page", () => {
