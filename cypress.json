@@ -3,9 +3,22 @@
     "baseUrl": "https://www.mercari.com",
     "projectId": "",
     "reporter": "mochawesome",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 15000,
+    "responseTimeout": 15000,
+    
     "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFilename": "report",
       "overwrite": false,
       "html": false,
       "json": true
-    }
+    },    
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "cypress/reports",
+    "video": false
+}
   }
